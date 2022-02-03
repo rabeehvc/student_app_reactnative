@@ -1,0 +1,17 @@
+export const realtimeBlue = '#002952';
+export const realtimeGreen = '#78BA00';
+export const lightRealtimeGreen = '#B0EB45';
+export const realtimeCharcoal = '#333333';
+export const realtimeBackgroundBlue = '#8b9cb0';
+export const realtimeButtonBlue = '#CCD6E1';
+export const realtimeSelectionBlue = '#5aadff';
+export const headerDarkGray = '#575757';
+export const lightBackgroundGray = '#F7F7F7';
+export const hazyGray = '#708090';
+export const tableItemBorderColor = 'lightgray';
+export const disabledGray = '#D7D7D7';
+export const linkBlue = '#3285FF';
+export const scheduledInBarColor = '#8b9cb0';
+export const studentHeaderBGColor = '#516375';
+export const studentHeaderValueColor = '#415F7C';
+export const studentHeaderLabelColor = '#4C4C4C';

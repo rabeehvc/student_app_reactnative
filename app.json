@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Realtime Link For Staffs",
+    "slug": "Realtime-Link-For-Staffs",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",      
+      "backgroundColor": "#103162",      
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.realitinc.staffApp",
+      "buildNumber": "46",
+      "supportsTablet": true,
+      "icon": "./assets/icon.png",
+      "splash": {
+        "image": "./assets/splash.png",      
+        "backgroundColor": "#103162",      
+        "resizeMode": "cover"
+      },
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true,
+        "NSFaceIDUsageDescription" : "This app will optionally use Face ID or Touch ID to save login",
+        "NSCameraUsageDescription": "Allow application to use the camera"
+      }     
+    },
+
+    "android": {
+      "versionCode": 5,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.realitinc.staffApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
