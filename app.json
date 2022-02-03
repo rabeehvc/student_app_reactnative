@@ -1,46 +1,57 @@
 {
   "expo": {
-    "name": "Realtime Link For Staffs",
-    "slug": "Realtime-Link-For-Staffs",
-    "version": "2.0.0",
+    "name": "RealtimeLinkForStudents",
+    "slug": "RealtimeLinkForStudents",
+    "version": "3.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",      
-      "backgroundColor": "#103162",      
-      "resizeMode": "cover"
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "bundleIdentifier": "com.realitinc.staffApp",
-      "buildNumber": "46",
       "supportsTablet": true,
       "icon": "./assets/icon.png",
       "splash": {
-        "image": "./assets/splash.png",      
-        "backgroundColor": "#103162",      
-        "resizeMode": "cover"
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff"
       },
-      "infoPlist": {
-        "CFBundleAllowMixedLocalizations": true,
-        "NSFaceIDUsageDescription" : "This app will optionally use Face ID or Touch ID to save login",
-        "NSCameraUsageDescription": "Allow application to use the camera"
-      }     
+      "bundleIdentifier": "com.realitinc.studentiOSApp",
+      "buildNumber": "9",
+      "infoPlist": {       
+        "NSLocationWhenInUseUsageDescription" : "This app will optionally use Location service for smooth experience"
+      }   
+      
     },
-
     "android": {
       "versionCode": 5,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.realitinc.staffApp"
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.realitinc.studentiOSApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "onesignal-expo-plugin",
+        {
+          "mode": "development"
+        }
+      ]
+    ]
   }
 }

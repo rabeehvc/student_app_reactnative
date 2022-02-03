@@ -1,0 +1,6 @@
+module Pods_RealtimeLinkForStudents {
+  umbrella header "Pods-RealtimeLinkForStudents-umbrella.h"
+
+  export *
+  module * { export * }
+}
